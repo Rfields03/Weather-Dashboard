@@ -14,7 +14,7 @@ function initPage() {
   let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
 
   // Assigning a unique API to a variable
-  const APIKey = "84b79da5e5d7c92085660485702f4ce8";
+  const APIKey = "e5a07f5f6cd75082137f387f3ea5d5ce";
 
   function getWeather(cityName) {
       // Execute a current weather get request from open weather api
